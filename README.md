@@ -1,6 +1,6 @@
 # GameShell_Joypad
 # 一, 介绍：
-   ### 这个是一块新的Gameshell的按键模块。用switch的摇杆更换了原先的方向键并且多出了个摇杆z轴按键。优点是可以直接平替原先的按键模块keypad无需对主机进行任何程序的更改。
+   ### 这是一块新的Gameshell按键模块。用switch的摇杆更换了原先的方向键并且多出了个摇杆z轴按键。优点是可以直接平替原先的按键模块keypad无需对主机进行任何程序的更改。
 
 # 二, 复刻前准备：
    ### 一双灵巧的双手，一个清醒的脑瓜子，风枪，电烙铁，镊子，一台Gameshell等。
@@ -14,7 +14,7 @@
     
 # 四, 将程序上载至joypad：
    ### 1. 在电脑上下载Arduino IDE。
-   ### 2. 下载GameShell_Joypad/Arduino/下的两个文件夹里的全部文件，UsbKeyboard为必须引入的库文件，另一个joypad_x.x.x文件夹为joypad主程序。
+   ### 2. 下载GameShell_Joypad/Arduino/下的两个文件夹里的全部文件，UsbKeyboard为必须引入的库文件，另一个joypad_x.x.x文件夹里面的xxx.ino为joypad主程序。
    ### 3. 先导入UsbKeyboard库，再打开joypad主程序选择板子端口和板子型号为arduino uno上传主程序。
     
 # 五, 校准摇杆：
@@ -25,3 +25,15 @@
 
 # 六， 使用：
    ### 1. 可以直接将原版的keypad用joypad替换装到Gameshell内，但是要注意要用巧劲使摇杆的头穿过Gameshell的前面板进行安装，否则可能会导致摇杆漂移的现象发生，具体为Sameshell会自动触发等现象。
+   
+# 七， joypad相关设置：
+  ### 该设置通过修改joypad主程序并上传至joypad实现以下功能的配置
+  ### 1. 设置摇杆灵敏度，校准组合键，校准组合键按下多少时间后触发校准等：
+  #### 在主文件的75~78行代码中可自行定义，但需要指出的是，摇杆校准组合键只能同时设置两个按键（不可少于两个或多余两个只能是两个）
+  #### 具体的按键对应的pin如下：
+  |  : Key : |    : Pins :   |: Cool :|
+  |----------|:-------------:|------:|
+  | col 1 is |  left-aligned | $1600 |
+  | col 2 is |    centered   |   $12 |
+  | col 3 is | right-aligned |    $1 |
+  
