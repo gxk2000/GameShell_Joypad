@@ -1,7 +1,7 @@
 # GameShell_Joypad
 # 一, 介绍：
-   ### 这是一块新的Gameshell按键模块。用switch的摇杆更换了原先的方向键并且多出了个摇杆z轴按键。优点是可以直接平替原先的按键模块keypad无需对主机进行任何程序的更改。
-![image](https://github.com/gxk2000/GameShell_Joypad/blob/main/demo/IMG_20230116_065845.jpg)
+   ### 这是一块新的Gameshell按键模块。用switch的摇杆更换了原先的方向键并且多出了个摇杆z轴按键。优点是可以直接平替原先的按键模块keypad无需对主机进行任何程序的更改且按键手感更为舒适顺手。
+
 # 二, 复刻前准备：
    ### 一双灵巧的双手，一个清醒的脑瓜子，风枪，电烙铁，镊子，一台Gameshell等。
 
