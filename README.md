@@ -36,4 +36,8 @@
   |     D6     |       A       |
   |     D7     |       B       |
   |     D8     |       X       |
+  |     D9     |       Y       |
+  |     D12    |     START     |
+  |     D10    |     SELECT    |
+  |     A0     |     SHIFT     |
   
