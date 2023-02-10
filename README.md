@@ -23,7 +23,7 @@
    ###    （1）如果校准完成后将板子接入Gameshell主板时按键出现无法使用的现象，请关机并重新连接主板与joypad再开机。
 
 # 六， 使用：
-   ### 1. 可以直接将原版的keypad用joypad替换装到Gameshell内，但是要注意要用巧劲使摇杆的头穿过Gameshell的前面板进行安装，否则可能会导致摇杆漂移的现象发生，具体为Sameshell会自动触发等现象。
+   ### 1. 可以直接将原版的keypad用joypad替换装到Gameshell内，但是要注意要用巧劲使摇杆的头穿过Gameshell的前面板进行安装，否则可能会导致摇杆漂移的现象发生，具体为Sameshell会自动触发方向键等现象。
    
 # 七， joypad相关设置：
   ### 该设置通过修改joypad主程序并上传至joypad实现以下功能的配置
