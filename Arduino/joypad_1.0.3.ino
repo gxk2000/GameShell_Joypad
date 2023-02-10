@@ -79,7 +79,7 @@
 // 摇杆灵敏度与摇杆校准相关设置
 int RestTime = 5000;                          // 持续按住多少时间后开始校准摇杆,愈大则需要按住愈久
 int Stick_sensitivity = 20;                   // 摇杆灵敏度，越小越灵敏
-String rest_combo_pins[2] = { "A6", "D16" };  // 摇杆校准组合键，此处为A6和D16即为LK2与LK4
+String rest_combo_pins[2] = { "A6", "D16" };  // 摇杆校准组合键，此处A6和D16即为LK2(L2)与LK4(R2)
 
 // 按键相关变量
 const int pins[KEY_NUM] = { 6, 7, 8, 9, 12, 10, 11, 16, 13, 15, 7, 6, 3, 3, 4, 4 };
